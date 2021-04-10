@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="450.0" style="-fx-background-color: #333333;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.LoginController">
+   <children>
+      <JFXTextField fx:id="username_txtField" focusColor="#d4ff00" labelFloat="true" layoutX="145.0" layoutY="146.0" promptText="Username" unFocusColor="#9d9c9c" AnchorPane.bottomAnchor="192.0" AnchorPane.leftAnchor="145.0" AnchorPane.rightAnchor="125.0">
+         <font>
+            <Font name="Helvetica" size="13.0" />
+         </font></JFXTextField>
+      <JFXPasswordField fx:id="password_pwField" focusColor="#fc2503" labelFloat="true" layoutX="146.0" layoutY="222.0" promptText="Password" unFocusColor="#9d9c9c" AnchorPane.bottomAnchor="116.0" AnchorPane.leftAnchor="146.0" AnchorPane.rightAnchor="127.0">
+         <font>
+            <Font name="Helvetica Neue" size="13.0" />
+         </font></JFXPasswordField>
+   </children>
+</AnchorPane>

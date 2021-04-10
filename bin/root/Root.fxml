@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<AnchorPane prefHeight="434.0" prefWidth="738.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="root.RootController">
+   <children>
+      <HBox layoutX="212.0" layoutY="144.0" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="274.0" prefWidth="152.0" style="-fx-background-color: lightgray;">
+               <children>
+                  <JFXButton fx:id="dash_btn" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="crm-menubutton" stylesheets="@../application/css/application.css" text=" " VBox.vgrow="ALWAYS">
+                     <graphic>
+                        <FontIcon iconColor="#6156ff" iconLiteral="fa-dashboard" iconSize="60" selectionFill="#70a5ff" styleClass="crm-menubutton-icon" wrappingWidth="61.928571701049805" />
+                     </graphic></JFXButton>
+                  <JFXButton fx:id="sett_btn" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="crm-menubutton" stylesheets="@../application/css/application.css" text=" " VBox.vgrow="ALWAYS">
+                     <graphic>
+                        <FontIcon iconColor="#6156ff" iconLiteral="fa-wrench" iconSize="60" selectionFill="#70a5ff" styleClass="crm-menubutton-icon" wrappingWidth="61.928571701049805" />
+                     </graphic></JFXButton>
+                  <JFXButton fx:id="chat_btn" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="crm-menubutton" stylesheets="@../application/css/application.css" text=" " VBox.vgrow="ALWAYS">
+                     <graphic>
+                        <FontIcon iconColor="#6156ff" iconLiteral="fa-wechat" iconSize="60" selectionFill="#70a5ff" styleClass="crm-menubutton-icon" wrappingWidth="61.928571701049805" />
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="trav_btn" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="crm-menubutton" stylesheets="@../application/css/application.css" text=" " VBox.vgrow="ALWAYS">
+                     <graphic>
+                        <FontIcon iconColor="#6156ff" iconLiteral="fa-pagelines" iconSize="60" selectionFill="#70a5ff" styleClass="crm-menubutton-icon" wrappingWidth="61.928571701049805" />
+                     </graphic></JFXButton>
+               </children>
+            </VBox>
+            <AnchorPane fx:id="canvas" prefHeight="200.0" prefWidth="200.0" styleClass="root" stylesheets="@../application/css/application.css" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

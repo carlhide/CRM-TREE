@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<AnchorPane prefHeight="462.0" prefWidth="720.0" styleClass="root" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="root.traverse.TraverseController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="462.0" prefWidth="720.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <JFXButton fx:id="traverse_btn" alignment="CENTER" prefHeight="84.0" prefWidth="295.0" style="-fx-text-fill: #3E9992;" text=" TRAVERSE">
+               <graphic>
+                  <FontIcon iconColor="#3e9992" iconLiteral="fa-leaf" iconSize="60" />
+               </graphic>
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </JFXButton>
+            <Label fx:id="nbrOfBranchesLabel" text="Number of branches: 25" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

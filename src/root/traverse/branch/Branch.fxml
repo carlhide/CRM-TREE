@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="root.traverse.branch.BranchController">
+   <children>
+      <HBox fx:id="children_hbox" layoutX="10.0" layoutY="690.0" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: gray;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+      <JFXButton fx:id="parent_btn" layoutX="14.0" layoutY="14.0" style="-fx-background-color: lightgray;" text="Back to [PARENT]" />
+      <AnchorPane layoutX="14.0" layoutY="106.0" prefHeight="17.0" prefWidth="259.0" />
+      <VBox layoutX="400.0" layoutY="80.0" prefHeight="248.0" prefWidth="188.0" style="-fx-background-color: gray;">
+         <children>
+            <Hyperlink text="Hyperlink" />
+            <Hyperlink text="Hyperlink" />
+            <Hyperlink text="Hyperlink" />
+            <Hyperlink text="Hyperlink" />
+         </children>
+      </VBox>
+      <Label layoutX="400.0" layoutY="63.0" text="Links" />
+      <VBox layoutX="595.0" layoutY="80.0" prefHeight="248.0" prefWidth="188.0" style="-fx-background-color: gray;">
+         <children>
+            <Hyperlink text="Hyperlink" />
+            <Hyperlink text="Hyperlink" />
+            <Hyperlink text="Hyperlink" />
+            <Hyperlink text="Hyperlink" />
+         </children>
+      </VBox>
+      <Label layoutX="595.0" layoutY="63.0" text="Documents" />
+      <Label layoutX="14.0" layoutY="63.0" text="Description" />
+      <Label fx:id="descriptionLabel" contentDisplay="TOP" layoutX="14.0" layoutY="80.0" prefHeight="248.0" prefWidth="366.0" style="-fx-background-color: gray; -fx-text-fill: lightblue;" text="Description descriptionDetion Description descriptionDescription description Description descriptionDescription description Description descriptionDescription description Description descriptionDescription description Description descriptionDescription description Description descriptionDescription description Description descriptionDescription description Description descriptionDescription description Dtion description Description" wrapText="true" />
+      <JFXButton fx:id="edit_btn" layoutX="913.0" layoutY="14.0" style="-fx-background-color: lightgray;" text="Edit page" />
+      <Label fx:id="titleLabel" layoutX="177.0" layoutY="13.0" text="Branch Title">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
